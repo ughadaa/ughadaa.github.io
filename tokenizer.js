@@ -15,7 +15,7 @@ const symbols = "$(){}[].><=;+-"
 const tag = ["<?","?>","php"]
 const keywords = ['let', 'var', 'const', 'function',
  'return', 'if', 'else', 'for', 'while', 'do', 'switch', 'break',
-'continue', 'default', 'case', 'echo']
+'continue', 'default', 'case', 'echo', 'console', 'log']
 
 function tokenizer(value){
     if(value.length == 0){
